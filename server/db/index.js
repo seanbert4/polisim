@@ -1,6 +1,9 @@
 'use strict';
-var db = require('./_db');
+
+const db = require('./_db');
 module.exports = db;
 
-var User = require('./models/user');
+const User = require('./models/user'),
+      HouseDistrict = require('./models/houseDistrict'),
+      Person = require('./models/person');
 
